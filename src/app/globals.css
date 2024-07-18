@@ -1,0 +1,173 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  --bs-indigo: #6610f2;
+  --bs-indigo-dark: #3e0a9d;
+  --bs-indigo-100: #b98aff;
+  --bs-indigo-200: #a374ff;
+  --bs-indigo-300: #8c5eff;
+  --bs-indigo-400: #7548ff;
+  --bs-indigo-500: #6610f2;
+  --bs-indigo-600: #4d0dc0;
+  --bs-indigo-700: #350a8e;
+  --bs-indigo-800: #1c0661;
+  --bs-indigo-900: #04032f;
+
+  --bs-purple: #6f42c1;
+  --bs-purple-dark: #432984;
+  --bs-purple-100: #ae8dff;
+  --bs-purple-200: #9d77ff;
+  --bs-purple-300: #8b60ff;
+  --bs-purple-400: #7a48ff;
+  --bs-purple-500: #6f42c1;
+  --bs-purple-600: #593199;
+  --bs-purple-700: #422571;
+  --bs-purple-800: #2c1449;
+  --bs-purple-900: #160a24;
+
+  --bs-pink: #d63384;
+  --bs-pink-dark: #882053;
+  --bs-pink-100: #ff9ed6;
+  --bs-pink-200: #ff83c9;
+  --bs-pink-300: #ff68bc;
+  --bs-pink-400: #ff4eaf;
+  --bs-pink-500: #d63384;
+  --bs-pink-600: #a32666;
+  --bs-pink-700: #701b49;
+  --bs-pink-800: #3d0d2b;
+  --bs-pink-900: #1a0510;
+
+  --bs-orange: #fd7e14;
+  --bs-teal: #20c997;
+  --bs-black: #000;
+  --bs-white: #fff;
+
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+
+  --bs-primary: #0d6efd;
+  --bs-primary-dark: #052d8c;
+  --bs-primary-100: #d2e3fc;
+  --bs-primary-200: #a5c7f9;
+  --bs-primary-300: #78abf6;
+  --bs-primary-400: #4b8ff3;
+  --bs-primary-500: #1e73f0;
+  --bs-primary-600: #065ed9;
+  --bs-primary-700: #054ca5;
+  --bs-primary-800: #043a71;
+  --bs-primary-900: #03283d;
+
+  --bs-secondary: #6c757d;
+  --bs-secondary-dark: #3b4249;
+  --bs-secondary-100: #a4abb1;
+  --bs-secondary-200: #8f969c;
+  --bs-secondary-300: #7a8288;
+  --bs-secondary-400: #656e74;
+  --bs-secondary-500: #6c757d;
+  --bs-secondary-600: #52595f;
+  --bs-secondary-700: #394146;
+  --bs-secondary-800: #1f262c;
+  --bs-secondary-900: #050c12;
+
+  --bs-success: #198754;
+  --bs-success-dark: #0e452a;
+  --bs-success-100: #ccf0d7;
+  --bs-success-200: #99e1ae;
+  --bs-success-300: #66d382;
+  --bs-success-400: #33c457;
+  --bs-success-500: #00b72d;
+  --bs-success-600: #009e24;
+  --bs-success-700: #007f1d;
+  --bs-success-800: #005f16;
+  --bs-success-900: #003f0f;
+
+  --bs-info: #0dcaf0;
+  --bs-info-dark: #067385;
+  --bs-info-100: #bfeeff;
+  --bs-info-200: #7eedff;
+  --bs-info-300: #3ce0ff;
+  --bs-info-400: #00d2ff;
+  --bs-info-500: #00b8e6;
+  --bs-info-600: #0095b3;
+  --bs-info-700: #007380;
+  --bs-info-800: #00504d;
+  --bs-info-900: #002e1a;
+
+  --bs-warning: #ffc107;
+  --bs-warning-dark: #876a04;
+  --bs-warning-100: #fff5cc;
+  --bs-warning-200: #ffee99;
+  --bs-warning-300: #ffe766;
+  --bs-warning-400: #ffdc33;
+  --bs-warning-500: #ffc107;
+  --bs-warning-600: #cca005;
+  --bs-warning-700: #997003;
+  --bs-warning-800: #664802;
+  --bs-warning-900: #332401;
+
+  --bs-danger: #dc3545;
+  --bs-danger-dark: #891c25;
+  --bs-danger-100: #f7d9db;
+  --bs-danger-200: #efb3b8;
+  --bs-danger-300: #e78c96;
+  --bs-danger-400: #df6673;
+  --bs-danger-500: #dc3545;
+  --bs-danger-600: #b32839;
+  --bs-danger-700: #8e1c2c;
+  --bs-danger-800: #69101f;
+  --bs-danger-900: #450812;
+
+  --bs-light: #f8f9fa;
+  --bs-light-dark: #c4c7cc;
+  --bs-light-100: #ffffff;
+  --bs-light-200: #f0f2f5;
+  --bs-light-300: #e1e4e9;
+  --bs-light-400: #d2d6db;
+  --bs-light-500: #c3c8cd;
+  --bs-light-600: #9fa5ad;
+  --bs-light-700: #7b818b;
+  --bs-light-800: #575e6a;
+  --bs-light-900: #33394a;
+
+  --bs-dark: #212529;
+  --bs-dark-dark: #0b0c0d;
+  --bs-dark-100: #484d53;
+  --bs-dark-200: #6e737a;
+  --bs-dark-300: #9499a1;
+  --bs-dark-400: #b9bdc3;
+  --bs-dark-500: #212529;
+  --bs-dark-600: #17191d;
+  --bs-dark-700: #0d0e11;
+  --bs-dark-800: #030304;
+  --bs-dark-900: #000000;
+  
+  --wheat: wheat;
+
+
+  --shadow-sm: 0 .125rem .25rem rgba(0,0,0,.075);
+  --shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  --shadow-lg: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bs-light-200);
+}
