@@ -1,5 +1,4 @@
 
-import BookCard from "@/components/utils/BookCard/BookCard"
 import { Metadata } from "next";
 import { z } from 'zod'
 
