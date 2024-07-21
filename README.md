@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Getting Started with 16th_ZezO-NextJS-Postgres-Prisma-API-App
 
-## Getting Started
+This project was deployed at **[16th_ZezO-NextJS-Postgres-Prisma-API-App](https://16th-zez-o-next-js-postgres-prisma-api-app.vercel.app/)**.
 
-First, run the development server:
+**[Video Preview](https://youtu.be/bYm_jrLtp4g)**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### `Important Note`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> UI Still In Progress.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### `Features`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+* Authentication.
+* Authorization.
+* Advanced Pagination.
+> page and limit can be chosen from Frontend
+* Advanced Sorting.
+* Advanced Filtering.
+> From Frontend one or more fields can be filtered and even one field can be filtered with more than one value.
+* Advanced Searching.
+> From Frontend search field can be selected with its keyword.
+* Advanced Selecting Fields.
+> only needed fields can be selected and populate field from other related tables easily from frontend.
+> password field is protected.
+* Protected Format for all advanced features.
+* Advanced features can be combined together.
 
-To learn more about Next.js, take a look at the following resources:
+### `Tech Stack`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* typescript
+* next
+* prisma
+* @prisma/client
+* zod
+* bcryptjs
+* jsonwebtoken
+* tailwindcss
